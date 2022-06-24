@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="A Frontend Mentor Challenge, June 2022">
+  <link rel="icon" type="image/png" sizes="32x32" href="./src/images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Coding Bootcamp Testimonials Slider</title>
+
+  <link rel="stylesheet" href="dist/css/main.css">
+  <script src="./index.js" defer></script>
+</head>
+
+<body>
+  <main class="card">
+    <!-- text Tanya -->
+    <blockquote class="card__text-container active">
+      <p class="card__testimonial">
+        “ I’ve been interested in coding for a while but never taken the jump, until now. I couldn’t recommend this course enough. I’m now in the job of my dreams and so excited about the future. ”
+      </p>
+      <p class="card__name">Tanya Sinclair</p>
+      <p class="card__position">UX Engineer</p>
+    </blockquote>
+
+    <!-- text John -->
+    <blockquote class="card__text-container">
+      <p class="card__testimonial">
+        “ If you want to lay the best foundation possible I’d recommend taking this course. The depth the instructors go into is incredible. I now feel so confident about starting up as a professional developer. ”
+      </p>
+      <p class="card__name">John Tarkpor</p>
+      <p class="card__position">Junior Front-end Developer</p>
+    </blockquote>
+
+    <div class="card__image-container">
+      <!-- image John -->
+      <img class="card__image active" src="src/images/image-tanya.jpg" alt="Tanya Sinclair" >
+
+      <!-- image John -->
+      <img class="card__image" src="src/images/image-john.jpg" alt="John Tarkpor" >
+
+      <!-- slider -->
+      <div class="card__slider">
+        <div id="prev" class="card__arrow" tabindex="0">
+          <img src="src/images/icon-prev.svg" alt="slider arrow previous" >
+        </div>
+        <div id="next" class="card__arrow" tabindex="0">
+          <img src="src/images/icon-next.svg" alt="slider arrow next" >
+        </div>  
+      </div>
+    </div>
+  </main>
+
+  <!-- <footer class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="https://www.frontendmentor.io/profile/PavlinaPs">Pavlina Psarsky</a>.
+  </footer> -->
+</body>
+</html>
