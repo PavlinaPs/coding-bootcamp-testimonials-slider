@@ -143,10 +143,8 @@
 
 .card__arrow > img {
     height: 1.3rem; 
-    width: 0.8;
 
     @media (min-width: $desktop) {
         height: 1.8rem; 
-        width: 0.8;
     }
 }
